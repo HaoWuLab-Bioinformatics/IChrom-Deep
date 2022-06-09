@@ -2,7 +2,7 @@
 IChrom-Deep is an attention-based deep learning model for identifying chromatin interactions
 
 ## Framework
-![image](https://github.com/HaoWuLab-Bioinformatics/iPro-WAEL/blob/main/Figure/Figure1.png)
+![image](https://github.com/HaoWuLab-Bioinformatics/IChrom-Deep/blob/main/Figure/Figure.png)
 
 ## Overview
  
