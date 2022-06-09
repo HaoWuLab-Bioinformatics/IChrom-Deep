@@ -11,7 +11,7 @@ The folder "data" contains the sequences and labels.
 The folder "feature" contains other features.  
 The file "index.txt" and "word2vec.txt" are benchmark files used to extract word2vec features.  
 The file "feature_code.py" is the code used to extract word2vec features. Note that changing the variable 'cell_lines' on line 48 to extract the different cell lines.    
-The file "data_process.py" is the code uesd to filter.  
+The file "data_process.py" is the code uesd to filter from raw data.  
 The file "model.py" is the code of the IChrom-Deep model. Note that changing the variable 'cell_lines' on line 142 to predict the different cell lines.  
 The file "cross_cell_all.py" is the code of the IChrom-Deep model on cross-cell lines validation. The variable 'cell_lines1' on line 172 is the training cell line and the variable 'cell_lines2' on line 173 is the testing cell line.  
 The folder "generative model" is the code of DCGAN and VAE, using for promoting the study of chromatin interactions.  
