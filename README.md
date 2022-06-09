@@ -5,7 +5,8 @@ IChrom-Deep is an attention-based deep learning model for identifying chromatin 
 ![image](https://github.com/HaoWuLab-Bioinformatics/IChrom-Deep/blob/main/Figure/Figure.png)
 
 ## Overview
- 
+
+".feather" files are raw data files.
 The folder "data" contains the sequences and labels.  
 The folder "feature" contains other features.  
 The file "index.txt" and "word2vec.txt" are benchmark files used to extract word2vec features.  
