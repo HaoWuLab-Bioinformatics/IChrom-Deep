@@ -6,7 +6,8 @@ IChrom-Deep is an attention-based deep learning model for identifying chromatin 
 
 ## Overview
  
-The folder "data" is the data of the promoter, containing the sequences and labels of the independent tesst sets and training sets.  
+The folder "data" contains the sequences and labels.  
+The folder "feature" contains other features.  
 The file "index.txt" and "word2vec.txt" are benchmark files used to extract word2vec features.  
 The file "feature_code.py" is the code used to extract word2vec features. Note that changing the variable 'cell_lines' on line 48 to extract the different cell lines.    
 The file "data_process.py" is the code uesd to filter.  
