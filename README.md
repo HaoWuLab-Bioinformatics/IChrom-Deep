@@ -8,7 +8,7 @@ IChrom-Deep is an attention-based deep learning model for identifying chromatin 
 
 ".feather" files are raw data files from https://github.com/shwhalen/tf2.  
 The folder "data" contains the sequences and labels.  
-The folder "feature" contains other features.  
+The file "feature.rar" contains other features.  
 The file "index.txt" and "word2vec.txt" are benchmark files used to extract word2vec features.  
 The file "feature_code.py" is the code used to extract word2vec features. Note that changing the variable 'cell_lines' on line 48 to extract the different cell lines.    
 The file "data_process.py" is the code uesd to filter from raw data.  
