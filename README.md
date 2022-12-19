@@ -13,11 +13,11 @@ The file "K562_genomics.rar" is an example file for the K562 cell line, containi
 
 ## Overview of code
 
-The file "feature_code.py" is the code used to extract word2vec features. Note that changing the variable 'cell_lines' on line 48 to extract the different cell lines.    
-The file "data_process.py" is the code uesd to filter from raw data.  
-The file "model.py" is the code of the IChrom-Deep model. Note that changing the variable 'cell_lines' on line 142 to predict the different cell lines.  
-The file "cross_cell_all.py" is the code of the IChrom-Deep model on cross-cell lines validation. The variable 'cell_lines1' on line 172 is the training cell line and the variable 'cell_lines2' on line 173 is the testing cell line.  
-The folder "generative model" is the code of DCGAN and VAE, using for promoting the study of chromatin interactions.  
+The code "data_load.py" is the code uesd to read data.  
+The code "model.py" is the code uesd to declare model architecture.  
+The code "feature_code.py" is the code uesd to encode the DNA sequence.  
+The code "main.py" is the code uesd to train ICrhom-Deep and evaluate the performance of model. This code automatically calls the above three codes.  
+The folder "generative model" is the code of DCGAN and VAE for promoting the study of chromatin interactions.  
 
 ## Dependency
 Python 3.6   
@@ -27,9 +27,7 @@ sklearn
 numpy  
 h5py 
 
-## Usage
-First, you should extract features of sequences, you can run the script to extract word2vec-based features as follows:  
-`python feature_code.py`  
-Then run the script as follows to compile and run iPro-WAEL:  
+## Usage of example files (K562 cell line)
+Run the script as follows to compile and run ICrhom-Deep:  
 `python model.py`  
 
