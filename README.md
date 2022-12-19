@@ -4,12 +4,15 @@ IChrom-Deep is an attention-based deep learning model for identifying chromatin 
 ## Framework
 ![image](https://github.com/HaoWuLab-Bioinformatics/IChrom-Deep/blob/main/Figure/Figure.png)
 
-## Overview
+## Overview of dataset
+Raw data files are from https://github.com/shwhalen/tf2. 
+The folder "data" contains the DNA sequences in ".bed" format and labels.
+The file "feature.rar" contains other features, including genomic features, distance, CTCF motif and conservation score.  
+The file "K562_sequence.rar" is an example file for the K562 cell line, containing DNA sequences in ".fasta" format and labels.
+The file "K562_genomics.rar" is an example file for the K562 cell line, containing genomic features and other features.
 
-".feather" files are raw data files from https://github.com/shwhalen/tf2.  
-The folder "data" contains the sequences and labels.  
-The file "feature.rar" contains other features.  
-The file "index.txt" and "word2vec.txt" are benchmark files used to extract word2vec features.  
+## Overview of code
+
 The file "feature_code.py" is the code used to extract word2vec features. Note that changing the variable 'cell_lines' on line 48 to extract the different cell lines.    
 The file "data_process.py" is the code uesd to filter from raw data.  
 The file "model.py" is the code of the IChrom-Deep model. Note that changing the variable 'cell_lines' on line 142 to predict the different cell lines.  
