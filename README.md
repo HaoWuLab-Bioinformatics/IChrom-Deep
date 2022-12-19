@@ -5,7 +5,7 @@ IChrom-Deep is an attention-based deep learning model for identifying chromatin 
 ![image](https://github.com/HaoWuLab-Bioinformatics/IChrom-Deep/blob/main/Figure/Figure.png)
 
 ## Overview of dataset
-Raw data files are from https://github.com/shwhalen/tf2.  
+The raw data files are from https://github.com/shwhalen/tf2.  
 The folder "data" contains the DNA sequences in ".bed" format and labels.  
 The file "feature.rar" contains other features, including genomic features, distance, CTCF motif and conservation score.  
 The file "K562_sequence.rar" is an example file for the K562 cell line, containing DNA sequences in ".fasta" format and labels.  
