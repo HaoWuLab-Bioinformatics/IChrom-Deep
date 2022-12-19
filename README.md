@@ -30,4 +30,4 @@ h5py
 ## Usage of example files (K562 cell line)
 Run the script as follows to compile and run ICrhom-Deep:  
 `python main.py`  
-Note that at least 32G memory may be required.
+Note that at least 64G memory may be required.
